@@ -1,0 +1,7 @@
+C:\Training\Visual Studio Projects\It Works\It Works\bin\Debug\It Works.exe.config
+C:\Training\Visual Studio Projects\It Works\It Works\bin\Debug\It Works.exe
+C:\Training\Visual Studio Projects\It Works\It Works\bin\Debug\It Works.pdb
+C:\Training\Visual Studio Projects\It Works\It Works\obj\Debug\It Works.csprojAssemblyReference.cache
+C:\Training\Visual Studio Projects\It Works\It Works\obj\Debug\It Works.csproj.CoreCompileInputs.cache
+C:\Training\Visual Studio Projects\It Works\It Works\obj\Debug\It Works.exe
+C:\Training\Visual Studio Projects\It Works\It Works\obj\Debug\It Works.pdb
