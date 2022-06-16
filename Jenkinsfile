@@ -5,9 +5,9 @@ node {
   stage('Build + SonarQube analysis') {
     def sqScannerMsBuildHome = tool 'Scanner for MSBuild 4.6'
     withSonarQubeEnv('My SonarQube Server') {
-      bat "${C:\Users\C605978\.dotnet\tools}\\SonarQube.Scanner.MSBuild.exe begin /k:myKey"
+      bat "${sqScannerMsBuildHome}\\SonarQube.Scanner.MSBuild.exe begin /k:myKey"
       bat 'MSBuild.exe /t:Rebuild'
-      bat "${C:\Users\C605978\.dotnet\tools}\\SonarQube.Scanner.MSBuild.exe end"
+      bat "${sqScannerMsBuildHome}\\SonarQube.Scanner.MSBuild.exe end"
     }
   }
 }
